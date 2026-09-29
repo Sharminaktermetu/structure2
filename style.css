@@ -1,0 +1,53 @@
+
+.nav-container{
+ display: flex;
+ justify-content: space-between;
+}
+.list-border{
+ display: flex;
+}
+.list-border li{
+  padding: 20px;
+  border: 2px solid purple;
+  margin: 10px;
+  list-style: none;
+  border-radius: 8px;
+}
+/* nav ends here */
+.main-container{
+ max-width: 1170px;
+ border: 2px solid black;
+ margin: auto;
+}
+.card-container{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.card{
+ padding: 20px;
+ border: 2px solid red;
+ margin: 10px;
+ width: 150px;
+ height: 150px;
+ overflow: hidden;
+}
+/*  */
+.banner-container{
+ display: flex;
+ 
+}
+.content{
+ margin-left: 200px;
+}
+.footer-class{
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer-class ul li {
+ list-style: none;
+ border: 2px solid green;
+ padding: 10px;
+ margin: 10px;
+}
